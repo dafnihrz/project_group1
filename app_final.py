@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 df = pd.read_parquet("career_data.parquet")
-st.title("Career Earnings Analysis")
+st.title("How Occupation and Education Affect Income")
 
 major_choice = st.selectbox("Pick a Major Category to view:", df['Major Category'].unique())
 
